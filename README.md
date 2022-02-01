@@ -61,3 +61,40 @@ services:
     - "8000:3000"
 
 ```
+階層
+```
+├── api
+│   ├── Dockerfile
+│   └── src
+│       ├── Gemfile
+│       ├── Gemfile.lock
+│       ├── README.md
+│       ├── Rakefile
+│       ├── app
+│       ├── bin
+│       ├── config
+│       ├── config.ru
+│       ├── db
+│       ├── entrypoint.sh
+│       ├── lib
+│       ├── log
+│       ├── public
+│       ├── storage
+│       ├── test
+│       ├── tmp
+│       └── vendor
+├── docker-compose.yml
+├── front
+│   ├── Dockerfile
+│   └── rails_react_app
+│       ├── README.md
+│       ├── node_modules
+│       ├── package-lock.json
+│       ├── package.json
+│       ├── public
+│       └── src
+├── init.md
+└── src
+    └── db
+        └── mysql_data
+```
